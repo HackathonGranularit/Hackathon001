@@ -1,0 +1,27 @@
+.bannerWrapper{
+    width: 100%;
+    background: #314369;
+    position: relative;
+    padding-bottom: 10%;
+    min-height: 85vh;
+}
+.bannerWrapper h1{
+    color: #fff;
+    font-weight: 400;
+    margin: 150px 0 50px;
+    font-size: 40px;
+
+}
+.bannerWrapper p{
+    color: #fff
+}
+.banner_img{
+    background: url('https://images.ctfassets.net/x5zolfqdr3vy/7dF6nyB2N8kt4fs0h87Aem/5be9dd950f0390318be91758ba282b51/blueprint-designing-diagram-834892.jpg');
+    background-size: cover;
+    clip-path: polygon(57% 0, 100% 0, 100% 100%, 0% 100%);
+    width: 50%;
+    height: 105%;
+    position: absolute;
+    right: 0;
+    top: -5%;
+}

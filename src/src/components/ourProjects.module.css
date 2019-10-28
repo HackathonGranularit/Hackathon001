@@ -1,0 +1,17 @@
+.our_projects_wrap{
+    min-height: 100vh;
+   background: url('https://images.ctfassets.net/x5zolfqdr3vy/6qkdN4N0TfCGdBWieo4XCh/ef77790bd39e3d051c055980b0c8ec64/projects.jpg');
+   background-size: cover;
+   position: relative;
+}
+.overlay{
+    background: #314369; 
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    opacity: 0.8;
+}
+.project_item{
+    
+}

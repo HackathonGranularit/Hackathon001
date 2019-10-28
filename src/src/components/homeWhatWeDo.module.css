@@ -1,0 +1,16 @@
+.what_we_do{
+    background: url('../images/what_we_do_bg.png');
+    min-height: 100%;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    background-size: contain;
+    width: 100%;
+}
+
+.what_we_do_image{
+    margin: 20% 50px 0 0;
+}
+.what_we_do_content{
+    margin-top: 20%;
+    color:#314369
+}
