@@ -15,10 +15,14 @@ const Services = () => (
         
 
       </div>
-      <div className={styles.AboutUswrapper}>
+      <div className="container padding">
         <div className="row">
           <div className="col-12 col-md-6 col-sm-12">
-            <div classname=" "></div>
+            <div classname=" ">
+              <div className=" ">
+
+              </div>
+            </div>
 
           </div>
         </div>

@@ -1,0 +1,19 @@
+.imageaboutus{
+    background-image: url(../images/gatsby-astronaut.png);
+    height: 400px;
+    width: 100%;
+}
+h2 {
+    color:blue;
+    padding:20px;
+
+}
+p{
+    padding:20px;
+
+}
+.practice{
+    background-color: #ACB6C7;
+    min-width: 100%;
+    min-height: 100px;
+}
