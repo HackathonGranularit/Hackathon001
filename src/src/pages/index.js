@@ -5,18 +5,12 @@ import Navigation from "../components/navigationModule"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-
 const IndexPage = () => (
-<>
-  <SEO title="Home" />
-  <Navigation/>
-  <HomeSections/>
-  
- 
-  
-</>
-    
- 
+  <>
+    <SEO title="Home" />
+    <Navigation />
+    <HomeSections />
+  </>
 )
 
 export default IndexPage

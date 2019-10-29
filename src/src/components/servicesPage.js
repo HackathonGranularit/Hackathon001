@@ -15,7 +15,7 @@ const ServicesPage = () => (
           <img src={Building1} style={{ height: 230, width: "90%" }} />
         </div>
         <div className="col col-md-6">
-          <h1>Quantity Survey</h1>
+          <h1 style={{ color: "#30416C" }}>Quantity Survey</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -26,7 +26,7 @@ const ServicesPage = () => (
       </div>
       <div className="row">
         <div className="col col-md-6">
-          <h1>Project Management</h1>
+          <h1 style={{ color: "#30416C" }}>Project Management</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -39,7 +39,6 @@ const ServicesPage = () => (
         </div>
       </div>
     </div>
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 

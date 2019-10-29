@@ -8,23 +8,19 @@ const AboutPage = () => (
   <Layout>
     <SEO title="About" />
     <br />
-    <div className="row slide-in-fwd-center">
+    <div className="row slide-in-fwd-center" style={{ marginTop: 30 }}>
       <div className="col col-md-6">
-        <h1 style={{ textAlign: "center" }}>Practice Profile</h1>
-        <p style={{ textAlign: "center" }}>
+        <h1 style={{ textAlign: "left", color: "#30416C" }}>Who We Are</h1>
+        <p style={{ textAlign: "left" }}>
           Tandem & Stark Ltd is an independent Kenyan firm that provides quality
           Cost Engineering, Cost Consultancy Services and project/ construction
           management in the construction industry. Our wealth of our experience
           covers a wide variety of projects ranging from building and
-          engineering support, fitting out & maintenance works. Since its
-          establishment, the firm has been able to provide the above services to
-          clients across East and Central Africa in the Commercial and
-          Industrial Sector, Financial Institutions, Domestic Housing as well as
-          in the Hospitality and Leisure industry.
+          engineering support to quality work and construction.
         </p>
       </div>
       <div className="col col-md-6">
-        <h1>What We Offer</h1>
+        <h1 style={{ color: "#30416C" }}>What We Do</h1>
         <div className="row">
           <div className="col col-md-6">
             <ul>
@@ -45,8 +41,6 @@ const AboutPage = () => (
         </div>
       </div>
     </div>
-
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
