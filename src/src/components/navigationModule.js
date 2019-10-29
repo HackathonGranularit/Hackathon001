@@ -16,7 +16,7 @@ export default() => (
                         <Link title="Home" aria-label="Home" to="/">Home</Link>
                     </li>
                     <li>
-                        <Link title="About" aria-label="About" to="/About">About</Link>
+                        <Link title="About" aria-label="About" to="/about">About</Link>
                     </li>
                     <li>
                         <Link title="Services" aria-label="Services" to="">Services</Link>

@@ -1,3 +1,6 @@
-.aboutus-banner{
-    background-image: url(gatsby-astronaut.png);
+.about{
+    background-image: url(../images/gatsby-astronaut.png);
+    /* background-color: black; */
+    height: 200px;
+    width: 100%;
 }

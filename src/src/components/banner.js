@@ -2,7 +2,7 @@ import React from "react"
 import styles from './banner.module.css'
 import Layout from "./layout"
 import {Link} from "gatsby"
-import ScrollAnimation from 'react-animate-on-scroll'
+
 
 export default () => (
 
