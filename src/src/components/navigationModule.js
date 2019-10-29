@@ -19,13 +19,13 @@ export default() => (
                         <Link title="About" aria-label="About" to="/about">About</Link>
                     </li>
                     <li>
-                        <Link title="Services" aria-label="Services" to="">Services</Link>
+                        <Link title="Services" aria-label="Services" to="/services">Services</Link>
                     </li>
                     <li>
-                        <Link title="Projects" aria-label="Projects" to="">Projects</Link>
+                        <Link title="Projects" aria-label="Projects" to="/projects">Projects</Link>
                     </li>
                     <li>
-                        <Link title="Contact" aria-label="" to="Contact">Contact</Link>
+                        <Link title="Contact" aria-label="Contact" to="/contact">Contact</Link>
                     </li>
                 </ul>
             </div>

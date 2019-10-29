@@ -1,23 +1,18 @@
 import React from "react"
 import { Link } from "gatsby"
-import styles from "../components/aboutus.css"
+import styles from "../components/projects.css"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const AboutUs = () => (
+const Projects = () => (
   <Layout>
-    <SEO title="About Us" />
+    <SEO title="Projects" />
 
       <div className={styles.about}>
         <h2> 
-        PRACTICE PROFILE
+        Projects
         </h2>
-        <p>
-        Tandem & Stark Ltd is an independent Kenyan firm that provides quality Cost Engineering, Cost
-Consultancy Services and project/ construction management in the construction industry. Our wealth
-of our experience covers a wide variety of projects ranging from building and engineering support,
-fitting out & maintenance works.
-        </p>
+        
 
       </div>
       <div className={styles.AboutUswrapper}>
@@ -35,4 +30,4 @@ fitting out & maintenance works.
   </Layout>
 )
 
-export default AboutUs
+export default Projects
