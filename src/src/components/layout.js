@@ -7,6 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
+import Navigation from "../components/navigationModule"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
@@ -25,7 +26,6 @@ const Layout = ({ children }) => {
 
   return (
     <>
-    
       <div
         style={{
           margin: `0 auto`,
@@ -34,8 +34,8 @@ const Layout = ({ children }) => {
           paddingTop: 0,
         }}
       >
+        <Navigation />
         <main>{children}</main>
-      
       </div>
     </>
   )
