@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Building1 from "../images/04.jpg"
 import Building2 from "../images/almond.jpg"
 
@@ -21,7 +20,12 @@ const ServicesPage = () => (
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           </p>
-          <button className="btn btn-primary">View All Services</button>
+          <button
+            className="btn"
+            style={{ background: "#30416C", color: "#fff" }}
+          >
+            View All Services
+          </button>
         </div>
       </div>
       <div className="row">
@@ -32,7 +36,12 @@ const ServicesPage = () => (
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           </p>
-          <button className="btn btn-primary">View All Services</button>
+          <button
+            className="btn"
+            style={{ background: "#30416C", color: "#fff" }}
+          >
+            View All Services
+          </button>
         </div>
         <div className="col-md-6">
           <img src={Building2} style={{ height: 230, width: "90%" }} />

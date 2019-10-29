@@ -62,7 +62,12 @@ const ContactPage = () => (
               placeholder="Your message"
             ></textarea>
           </div>
-          <button className="btn btn-primary">Send Message</button>
+          <button
+            className="btn"
+            style={{ background: "#30416C", color: "#fff" }}
+          >
+            Send Message
+          </button>
         </form>
       </div>
     </div>
