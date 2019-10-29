@@ -7,8 +7,11 @@ import SEO from "../components/seo"
 const ServicesPage = () => (
   <Layout>
     <SEO title="Services" />
-    <h1>Hi from the Services page</h1>
-    <p>Welcome to Services</p>
+    <div className="row slide-in-fwd-center">
+      <div className="">
+        
+      </div>
+    </div>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
